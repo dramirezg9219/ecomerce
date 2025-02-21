@@ -1,0 +1,27 @@
+info:
+  component:  ecomerce
+server:
+  servlet:
+    context-path: /${info.component}
+spring:
+  application:
+    name: ${info.component}
+  main:
+    banner-mode: log
+  datasource:
+      url: jdbc:h2:mem:price_capitole
+      username: sa
+      password: password
+      driverClassName: org.h2.Driver
+  sql:
+    init:
+      mode: always
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    defer-datasource-initialization: true
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: none
+  flyway:
+    enabled: true
