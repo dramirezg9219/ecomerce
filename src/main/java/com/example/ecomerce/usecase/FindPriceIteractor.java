@@ -1,7 +1,7 @@
 package com.example.ecomerce.usecase;
 
 import com.example.ecomerce.common.Constants;
-import com.example.ecomerce.domain.modelo.Price;
+import com.example.ecomerce.domain.model.Price;
 import com.example.ecomerce.domain.repository.PriceRepositoryPort;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

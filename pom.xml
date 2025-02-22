@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>ecomerce</artifactId>
-    <version>0.5.0</version>
+    <version>0.6.0</version>
     <name>ecomerce</name>
     <description>ecomerce</description>
     <url/>
@@ -31,6 +31,8 @@
         <flyway-maven-plugin.version>10.20.1</flyway-maven-plugin.version>
         <model.mapper.version>3.1.1</model.mapper.version>
         <lombok.version>1.18.26</lombok.version>
+        <io.springfox.version>3.0.0</io.springfox.version>
+
     </properties>
     <repositories>
         <repository>
@@ -96,6 +98,11 @@
             <groupId>org.modelmapper</groupId>
             <artifactId>modelmapper</artifactId>
             <version>${model.mapper.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-boot-starter</artifactId>
+            <version>${io.springfox.version}</version>
         </dependency>
     </dependencies>
 
