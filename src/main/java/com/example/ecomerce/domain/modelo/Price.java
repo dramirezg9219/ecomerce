@@ -1,13 +1,13 @@
 package com.example.ecomerce.domain.modelo;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-@Getter
+@Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class Price {
 
     private Integer productId;

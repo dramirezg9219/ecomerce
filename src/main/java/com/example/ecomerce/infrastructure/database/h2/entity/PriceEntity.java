@@ -49,5 +49,4 @@ public class PriceEntity {
     @Column(name = "USERNAME")
     private String username;
 
-
 }

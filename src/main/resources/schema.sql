@@ -1,7 +1,7 @@
 drop table if exists PRICE;
 
 create table PRICE (
-                       PRICE_ID BIGINT not null AUTO_INCREMENT,
+                       PRICE_ID BIGINT not null AUTO_INCREMENT PRIMARY KEY,
                        BRAND_ID int NOT NULL,
                        START_DATE TIMESTAMP NOT NULL,
                        END_DATE TIMESTAMP NOT NULL,

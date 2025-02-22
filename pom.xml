@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.example</groupId>
     <artifactId>ecomerce</artifactId>
-    <version>0.3.0</version>
+    <version>0.4.0</version>
     <name>ecomerce</name>
     <description>ecomerce</description>
     <url/>
@@ -30,6 +30,7 @@
         <java.version>17</java.version>
         <flyway-maven-plugin.version>10.20.1</flyway-maven-plugin.version>
         <model.mapper.version>3.1.1</model.mapper.version>
+        <lombok.version>1.18.26</lombok.version>
     </properties>
     <repositories>
         <repository>
@@ -112,6 +113,7 @@
                         <path>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>
+                            <version>${lombok.version}</version>
                         </path>
                     </annotationProcessorPaths>
                 </configuration>

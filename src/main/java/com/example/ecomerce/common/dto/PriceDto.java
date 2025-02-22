@@ -1,15 +1,11 @@
 package com.example.ecomerce.common.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-@Getter
-@Setter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class PriceDto {
@@ -20,5 +16,4 @@ public class PriceDto {
     private LocalDateTime startDate;
     private LocalDateTime endDate;
     private BigDecimal salePrice;
-    private String curr;
 }
