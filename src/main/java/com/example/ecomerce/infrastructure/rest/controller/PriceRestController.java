@@ -39,7 +39,7 @@ public class PriceRestController {
     public ResponseEntity<PriceDto> getPrice(@PathVariable("productId") Integer productId,
                                              @PathVariable("brandId") Integer brandId,
                                              @RequestParam(name = "applicationDate") LocalDateTime applicationDate) {
-        Price price = iFindPriceIteractor.findProductByElements(applicationDate,productId, brandId);
+        Price price = iFindPriceIteractor.findPriceByElements(applicationDate,productId, brandId);
         return ResponseEntity.ok(modelMapper.map(price, PriceDto.class));
     }
 }

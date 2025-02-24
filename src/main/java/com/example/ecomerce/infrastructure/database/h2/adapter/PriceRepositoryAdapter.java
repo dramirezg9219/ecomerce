@@ -25,7 +25,7 @@ public class PriceRepositoryAdapter implements PriceRepositoryPort {
     private final PriceJpaRepository priceJpaRepository;
 
     @Override
-    public Optional<Price> findProductByElements(LocalDateTime applicationDate, Integer productId, Integer brandId) {
+    public Optional<Price> findPriceByElements(LocalDateTime applicationDate, Integer productId, Integer brandId) {
 
         Pageable pageable = PageRequest.of(0, 1, Sort.by(Sort.Direction.DESC, "priority"));
         Page<PriceEntity> pricesEntity = priceJpaRepository.findFirstByProductIdAndBrandIdAndStartDateLessThanEqualAndEndDateGreaterThanEqual(productId, brandId, applicationDate, applicationDate, pageable);
