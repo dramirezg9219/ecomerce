@@ -6,5 +6,5 @@ import java.time.LocalDateTime;
 
 public interface IFindPriceIteractor {
 
-    Price findProductByElements(LocalDateTime applicatioDate, Integer productId, Integer brandId);
+    Price findPriceByElements(LocalDateTime applicatioDate, Integer productId, Integer brandId);
 }
