@@ -1,5 +1,5 @@
 info:
-  component: ecomerce
+  component: ecommerce
 local:
   server:
     port: 8080

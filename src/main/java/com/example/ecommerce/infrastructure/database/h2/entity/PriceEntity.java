@@ -1,4 +1,4 @@
-package com.example.ecomerce.infrastructure.database.h2.entity;
+package com.example.ecommerce.infrastructure.database.h2.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

@@ -1,6 +1,6 @@
-package com.example.ecomerce.domain.repository;
+package com.example.ecommerce.domain.repository;
 
-import com.example.ecomerce.domain.model.Price;
+import com.example.ecommerce.domain.model.Price;
 
 import java.time.LocalDateTime;
 import java.util.Optional;
