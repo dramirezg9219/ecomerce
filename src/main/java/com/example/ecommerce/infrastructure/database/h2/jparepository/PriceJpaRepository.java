@@ -1,6 +1,6 @@
-package com.example.ecomerce.infrastructure.database.h2.jparepository;
+package com.example.ecommerce.infrastructure.database.h2.jparepository;
 
-import com.example.ecomerce.infrastructure.database.h2.entity.PriceEntity;
+import com.example.ecommerce.infrastructure.database.h2.entity.PriceEntity;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

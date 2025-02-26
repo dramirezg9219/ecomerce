@@ -1,4 +1,4 @@
-package com.example.ecomerce.common;
+package com.example.ecommerce.common;
 
 import jakarta.servlet.http.HttpServletRequest;
 import lombok.extern.log4j.Log4j2;
@@ -22,7 +22,7 @@ public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
         log.error("NoSuchElementException (404) handled. {}", exception.getMessage());
 
         return ResponseEntity.status(HttpStatus.NOT_FOUND)
-                .body("NOT FOUND, request: " + httpRequest.getRequestURI());
+                .body("NOT_FOUND, request: " + httpRequest.getRequestURI());
     }
 
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)

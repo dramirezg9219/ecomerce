@@ -1,10 +1,10 @@
-package com.example.ecomerce.infrastructure.database.h2.adapter;
+package com.example.ecommerce.infrastructure.database.h2.adapter;
 
-import com.example.ecomerce.common.Constants;
-import com.example.ecomerce.domain.model.Price;
-import com.example.ecomerce.domain.repository.PriceRepositoryPort;
-import com.example.ecomerce.infrastructure.database.h2.entity.PriceEntity;
-import com.example.ecomerce.infrastructure.database.h2.jparepository.PriceJpaRepository;
+import com.example.ecommerce.common.Constants;
+import com.example.ecommerce.domain.model.Price;
+import com.example.ecommerce.domain.repository.PriceRepositoryPort;
+import com.example.ecommerce.infrastructure.database.h2.entity.PriceEntity;
+import com.example.ecommerce.infrastructure.database.h2.jparepository.PriceJpaRepository;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.Page;

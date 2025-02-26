@@ -1,4 +1,4 @@
-package com.example.ecomerce.domain.model;
+package com.example.ecommerce.domain.model;
 
 import lombok.*;
 
